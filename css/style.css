@@ -1,0 +1,201 @@
+
+:root {
+--bs-classic: rgb(193 180 135);
+--bs-gold:#f3ba03;
+}
+
+body {
+    background: linear-gradient(to right top, #c9be98, #c7bb94, #c5b98f, #c3b68b, #c1b487);
+}
+
+.z-top {
+    z-index: 1000;
+}
+
+.mobile-header {
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.phone-frame {
+    width: 375px; /* iPhone X width */
+    height: 812px; /* iPhone X height */
+    border: 16px solid #333;
+    border-radius: 36px;
+    /* padding: 20px; */
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.phone-screen {
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+/* Add a fake notch for simulation */
+.notch {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 30px;
+    background: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.container-mobile {
+    padding: 0;
+    overflow: scroll;
+    max-height: 700px;
+}
+
+.container-mobile .col-12 {
+    margin: 0;
+}
+
+
+.bg-classic {
+    background-color: #c1b487;
+    color: white;
+}
+
+.bg-classic:hover {
+    color: #c1b487;
+    background-color: white;
+}
+
+.bg-secondary-classic {
+    --bs-bg-opacity: 1;
+    background-color: rgb(193 180 135) !important;
+}
+.container-h-600{
+    min-height: 600px;
+}
+.image-cover-size{
+    max-width: 100%;
+    max-height: 190px;
+    object-fit: cover;
+}
+.bg-gold{
+    background-color: rgb(193 180 135) !important;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+footer {
+    margin-top: 15px !important;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.list-mobile {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 600px;
+    box-sizing: content-box;
+}
+
+.list-group-mobile .list-group-item {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    height: 200px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.no-margin-padding{
+    margin: 0;
+    padding: 0;
+}
+.d-block{
+    
+    height: 358px;
+    object-fit: cover;
+}
+.card-body{
+    border-radius: 10px;
+    margin-top: -15px;
+    z-index: 1000;
+    background-color: #f8f9fa;
+}
+.no-border{
+    border: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f7;
+}
+
+.icons {
+   
+    
+    width: 80%;
+    margin: 50px auto;
+ 
+}
+
+
+
+
+
+.contact-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+.pomodoro-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+}
+.timer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.controls{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.clock-time{
+    font-size: 4em;
+}
+.profile-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+}
+.clock-button-home{
+    display: flex;
+    justify-content: center;
+}
